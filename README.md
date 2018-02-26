@@ -27,6 +27,3 @@
     public void stop (View view) {
         mPlayEffectView.stop();
     }
-
-## 引用
->[PlayView](https://github.com/HaoTianYi/PlayView)
