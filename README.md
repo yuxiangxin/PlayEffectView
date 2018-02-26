@@ -7,6 +7,7 @@
 
 ## APP体验
 [下载](https://github.com/yuxiangxin/PlayEffectView/blob/master/ext/demp.apk)
+
 ##使用    
 	
 布局中使用
@@ -27,4 +28,5 @@
         mPlayEffectView.stop();
     }
 
->PlayView
+## 引用
+>[PlayView](https://github.com/HaoTianYi/PlayView)
