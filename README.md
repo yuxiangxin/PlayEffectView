@@ -3,10 +3,10 @@
 音频播放效果
 
 ##截图
-![0](.\ext\demo.gif)
+![0](https://github.com/yuxiangxin/PlayEffectView/blob/master/ext/demo.gif)
 
-## APP体验下载
-[下载](.\ext\demo.mp4)
+## APP体验
+[下载](https://github.com/yuxiangxin/PlayEffectView/blob/master/ext/demp.apk)
 ##使用    
 	
 布局中使用
