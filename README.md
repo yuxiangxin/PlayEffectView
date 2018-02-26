@@ -3,10 +3,10 @@
 音频播放效果
 
 ##截图
-![0](\ext\demo.gif) 
+![0](.\ext\demo.gif)
 
 ## APP体验下载
-[下载](\ext\demo.mp4)
+[下载](.\ext\demo.mp4)
 ##使用    
 	
 布局中使用
