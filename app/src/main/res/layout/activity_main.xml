@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    android:orientation="vertical"
-    tools:context="yu.demo.ui_playeffectview.MainActivity">
+    android:orientation="vertical">
 
-    <yu.demo.ui_playeffectview.PlayEffectView
+    <me.yu.playeffectview.PlayEffectView
         android:id="@+id/play_effect_v"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="#c0dbe7"
-        android:layout_marginTop="12dp"/>
+        android:layout_marginTop="12dp"
+        android:background="#c0dbe7" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
         android:orientation="horizontal">
 
         <Button
@@ -29,14 +26,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="start"
-            android:text="start"/>
+            android:text="start" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="stop"
-            android:text="stop"/>
+            android:text="stop" />
     </LinearLayout>
 
 </LinearLayout>
