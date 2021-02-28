@@ -10,7 +10,7 @@
 [下载](https://github.com/yuxiangxin/PlayEffectView/blob/master/ext/demp.apk)
 
 ## 使用
-拷贝[代码](https://github.com/yuxiangxin/PlayEffectView/blob/master/app/src/main/java/yu/demo/ui_playeffectview/PlayEffectView.java)至项目中
+拷贝[代码](https://github.com/yuxiangxin/PlayEffectView/blob/master/app/src/main/java/me/yu/playeffectview/PlayEffectView.java)至项目中
 
     //播放动画值,可以通过调整此数组值达到调整动画效果
     private float[] mAnimValues1 = {0.3F, 0.6F, 0.2F, 0.8F};
@@ -20,11 +20,12 @@
 
 布局中使用
 
-    <yu.demo.ui_playeffectview.PlayEffectView
+    <me.yu.playeffectview.PlayEffectView
         android:id="@+id/play_effect_v"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        />	
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:background="#c0dbe7" />
  
 代码中
 
